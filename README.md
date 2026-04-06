@@ -40,18 +40,18 @@ Permite que un cliente consulte dominios a un **servidor principal**, que a su v
 ## Instalación y ejecución
 
 
-# 1. Clonar o descargar el proyecto en tu máquina
+#### 1. Clonar o descargar el proyecto en tu máquina
 
-# 2. Compilar todos los archivos Java
+#### 2. Compilar todos los archivos Java
 javac Cliente.java Servidor.java ServidorPrincipal.java
 
-# 3. Ejecutar los servidores secundarios (puertos 5001, 5002, 5003)
+#### 3. Ejecutar los servidores secundarios (puertos 5001, 5002, 5003)
 java Servidor 5001 dns1.txt
 java Servidor 5002 dns2.txt
 java Servidor 5003 dns3.txt
 
-# 4. Ejecutar el servidor principal (puerto 5000)
+#### 4. Ejecutar el servidor principal (puerto 5000)
 java ServidorPrincipal
 
-# 5. Ejecutar el cliente y escribir el dominio que deseas consultar
+#### 5. Ejecutar el cliente y escribir el dominio que deseas consultar
 java Cliente
