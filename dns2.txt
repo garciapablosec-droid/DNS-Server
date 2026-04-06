@@ -1,0 +1,4 @@
+google.com,8.8.8.8
+yahoo.com,1.1.1.1
+openai.com,3.3.3.3
+github.com,4.4.4.4
